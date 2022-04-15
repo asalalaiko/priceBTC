@@ -1,10 +1,13 @@
 package by.asalalaiko.priceBtcTradeCex.service;
 
+import by.asalalaiko.priceBtcTradeCex.PriceBtcTradeCexApplication;
 import by.asalalaiko.priceBtcTradeCex.model.LastPrice;
 import by.asalalaiko.priceBtcTradeCex.model.Price;
 import by.asalalaiko.priceBtcTradeCex.model.Trader;
 import by.asalalaiko.priceBtcTradeCex.repo.PriceRepository;
 import by.asalalaiko.priceBtcTradeCex.repo.TraderRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -28,7 +31,7 @@ public class PriceServiceImpl implements PriceService {
 
     @Value("${trader.name}")
     private String traderName;
-
+    private static final Logger LOGGER = LoggerFactory.getLogger(PriceServiceImpl.class);
     @Async
     @Override
     public Price getPriceToTrader() {
@@ -56,5 +59,20 @@ public class PriceServiceImpl implements PriceService {
     @Override
     public void savePrice(Price price) {
         priceRepository.save(price);
+    }
+
+    @Override
+    public Price findLastPrice() {
+        Price price = priceRepository.findFirstByOrderByIdDesc();
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+
+        if (price==null){
+            price = new Price();
+            price.setTimestamp(timestamp);
+            price.setPrice(0.00);
+            price.setId(0);
+            price.setTraderId(traderRepository.findByName(traderName).getId());
+        }
+        return price;
     }
 }

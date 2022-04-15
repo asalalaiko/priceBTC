@@ -20,11 +20,18 @@ public class ScheduledTask {
     @Scheduled(cron = "0 * * * * *")
     public void getPrises(){
         try {
-            Price price = priceService.getPriceToTrader();
-            if (price!=null)
-                priceService.savePrice(price);
+            Price lprice = priceService.findLastPrice();
 
-            LOGGER.info("Find & save Price:"+price.toString());
+            Price price = priceService.getPriceToTrader();
+
+            if (price!=null && !(lprice.getPrice().equals(price.getPrice()))) {
+                priceService.savePrice(price);
+                LOGGER.info("Find & save - "+price.toString());
+             } else {
+                LOGGER.info("Find: "+price.toString()+" Last price:"+lprice.toString());
+            }
+
+
 
             } catch (Exception e) {
         LOGGER.error("Error running Task(getPrises)-", e);
