@@ -17,8 +17,7 @@ public class Price {
     private Long traderId;
     @Column
     private Timestamp timestamp;
-    @Column
-    private Double lprice;
+
 
     public Price() {
     }
@@ -55,13 +54,6 @@ public class Price {
         this.id = id;
     }
 
-    public Double getLprice() {
-        return lprice;
-    }
-
-    public void setLprice(Double lprice) {
-        this.lprice = lprice;
-    }
 
     @Override
     public String toString() {
@@ -70,7 +62,6 @@ public class Price {
                 ", price=" + price +
                 ", traderId=" + traderId +
                 ", timestamp=" + timestamp +
-                ", lprice=" + lprice +
                 '}';
     }
 }

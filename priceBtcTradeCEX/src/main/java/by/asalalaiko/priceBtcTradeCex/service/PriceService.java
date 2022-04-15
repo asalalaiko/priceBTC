@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 
 
 public interface PriceService {
-    public Price getPriceToTrader();
-    public void savePrice(Price price);
+    Price getPriceToTrader();
+    void savePrice(Price price);
 }

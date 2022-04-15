@@ -1,10 +1,12 @@
 package by.asalalaiko.priceBtcTradeCex.service;
 
+import by.asalalaiko.priceBtcTradeCex.model.LastPrice;
 import by.asalalaiko.priceBtcTradeCex.model.Price;
 import by.asalalaiko.priceBtcTradeCex.model.Trader;
 import by.asalalaiko.priceBtcTradeCex.repo.PriceRepository;
 import by.asalalaiko.priceBtcTradeCex.repo.TraderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
@@ -21,6 +23,11 @@ import java.util.List;
 public class PriceServiceImpl implements PriceService {
     @Autowired
     private PriceRepository priceRepository;
+    @Autowired
+    private TraderRepository traderRepository;
+
+    @Value("${trader.name}")
+    private String traderName;
 
     @Async
     @Override
@@ -38,8 +45,11 @@ public class PriceServiceImpl implements PriceService {
 
         Price price = new Price();
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-        price = restTemplate.getForObject("https://cex.io/api/last_price/BTC/USD", Price.class);
+        LastPrice lastPrice = restTemplate.getForObject("https://cex.io/api/last_price/BTC/USD", LastPrice.class);
+
+        price.setPrice(lastPrice.getLprice());
         price.setTimestamp(timestamp);
+        price.setTraderId(traderRepository.findByName(traderName).getId());
         return price;
     }
 
