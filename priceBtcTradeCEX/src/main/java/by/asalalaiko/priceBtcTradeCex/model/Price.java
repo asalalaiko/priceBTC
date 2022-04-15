@@ -1,14 +1,15 @@
 package by.asalalaiko.priceBtcTradeCex.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.sql.Timestamp;
 
-
+@Entity
 @Table(name = "price")
 public class Price {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
     @NotNull
     @Column(name = "price")
     private Double price;
@@ -16,6 +17,8 @@ public class Price {
     private Long traderId;
     @Column
     private Timestamp timestamp;
+    @Column
+    private Double lprice;
 
     public Price() {
     }
@@ -42,5 +45,32 @@ public class Price {
 
     public void setTimestamp(Timestamp timestamp) {
         this.timestamp = timestamp;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Double getLprice() {
+        return lprice;
+    }
+
+    public void setLprice(Double lprice) {
+        this.lprice = lprice;
+    }
+
+    @Override
+    public String toString() {
+        return "Price{" +
+                "id=" + id +
+                ", price=" + price +
+                ", traderId=" + traderId +
+                ", timestamp=" + timestamp +
+                ", lprice=" + lprice +
+                '}';
     }
 }
