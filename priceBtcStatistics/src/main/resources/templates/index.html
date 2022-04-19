@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+</head>
+<body>
+    <span th:text="'Min price today - ' + ${minPriceToday.price}"></span>
+    <span th:text="'Max price today - ' + ${maxPriceToday.price}"></span><br>
+    <span th:text="'Min price on month - ' + ${minPriceMonth.price}"></span>
+    <span th:text="'Max price on month - ' + ${maxPriceMonth.price}"></span><br>
+    <span th:text="'Min price on year - ' + ${minPriceYear.price}"></span>
+    <span th:text="'Max price on year - ' + ${maxPriceYear.price}"></span><br>
+</body>
+</html>

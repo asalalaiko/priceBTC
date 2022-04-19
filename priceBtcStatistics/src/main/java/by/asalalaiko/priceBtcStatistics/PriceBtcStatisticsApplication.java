@@ -40,12 +40,12 @@ public class PriceBtcStatisticsApplication implements CommandLineRunner {
 			System.out.println("Start = "+ timestampStart);
 			Timestamp timestampFinish = Timestamp.valueOf(now.atTime(LocalTime.MAX));
 			System.out.println("End = "+ timestampFinish);
-			Timestamp timestampMountStart = Timestamp.valueOf(now.with(firstDayOfMonth()).atStartOfDay());
-			System.out.println("This mount start = " +timestampMountStart );
-			Timestamp timestampMountFinish = Timestamp.valueOf(now.with(lastDayOfMonth()).atTime(LocalTime.MAX));
+			Timestamp timestampMonthStart = Timestamp.valueOf(now.with(firstDayOfMonth()).atStartOfDay());
+			System.out.println("This month start = " +timestampMonthStart );
+			Timestamp timestampMonthFinish = Timestamp.valueOf(now.with(lastDayOfMonth()).atTime(LocalTime.MAX));
 
 
-			System.out.println("This mount end = "+timestampMountFinish);
+			System.out.println("This month end = "+timestampMonthFinish);
 			Timestamp timestampYearStart =Timestamp.valueOf(now.with(firstDayOfYear()).atStartOfDay());
 			System.out.println("This year start = " +timestampYearStart );
 			Timestamp timestampYearEnd =Timestamp.valueOf(now.with(lastDayOfYear()).atTime(LocalTime.MAX));
@@ -54,12 +54,12 @@ public class PriceBtcStatisticsApplication implements CommandLineRunner {
 
 
 			System.out.println("****************************************");
-			System.out.println(priceRepository.findByTimestampBetween(timestampMountStart,timestampFinish)
+			System.out.println(priceRepository.findByTimestampBetween(timestampMonthStart,timestampFinish)
 			.stream().min(Comparator.comparing(Price::getPrice)));
-			System.out.println(priceRepository.findByTimestampBetween(timestampMountStart,timestampFinish)
+			System.out.println(priceRepository.findByTimestampBetween(timestampMonthStart,timestampFinish)
 					.stream().max(Comparator.comparing(Price::getPrice)));
 			System.out.println("****************************************");
-			System.out.println(priceRepository.findByTimestampBetween(timestampMountStart,timestampFinish));
+			System.out.println(priceRepository.findByTimestampBetween(timestampMonthStart,timestampFinish));
 		} catch (Exception e) {
 			LOGGER.error("Error start Statistics Application ", e);
 		}

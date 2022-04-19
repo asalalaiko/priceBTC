@@ -8,10 +8,10 @@ public interface PriceService {
     Price findMinPriceToday();
     //max at 24 hours
     Price findMaxPriceToday();
-    //min at mount
-    Price findMinPriceMount();
-    //max at mount
-    Price findMaxPriceMount();
+    //min at month
+    Price findMinPriceMonth();
+    //max at month
+    Price findMaxPriceMonth();
     //min at year
     Price findMinPriceYear();
     //max at year
