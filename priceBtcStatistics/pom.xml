@@ -12,6 +12,7 @@
 	<artifactId>priceBtcStatistics</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>priceBtcStatistics</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -78,8 +79,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
+		<finalName>priceBtcStatistics</finalName>
 	</build>
 
 </project>
