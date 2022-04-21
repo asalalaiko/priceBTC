@@ -10,17 +10,17 @@ services:
       POSTGRES_DB: priceBTC
       PGDATA: /var/lib/postgresql/data/pgdata
     restart: always
-  web_statictics:
-    image: 0125523/duba:price-btc-statictics
-    ports:
-      - 8080:8080
-#    restart: always
-    links:
-      - db
-#  trade_cex:
-#    image: 0125523/duba:price-btc-trade-cex
+#  web_statictics:
+#    image: asalalaiko/price-btc-statistics:v2
 #    ports:
-#      - 8081:8081
+#      - 8080:8080
 #    restart: always
 #    links:
 #      - db
+  trade_cex:
+    image: asalalaiko/price-btc-trade-cex:v1
+    ports:
+      - 8081:8081
+#    restart: always
+    links:
+      - db
