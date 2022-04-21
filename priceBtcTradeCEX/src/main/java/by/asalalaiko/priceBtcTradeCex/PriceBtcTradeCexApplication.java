@@ -2,7 +2,6 @@ package by.asalalaiko.priceBtcTradeCex;
 
 import by.asalalaiko.priceBtcTradeCex.model.Trader;
 import by.asalalaiko.priceBtcTradeCex.repo.TraderRepository;
-import by.asalalaiko.priceBtcTradeCex.scheduling.ScheduledTask;
 import by.asalalaiko.priceBtcTradeCex.service.PriceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +26,7 @@ public class PriceBtcTradeCexApplication implements CommandLineRunner {
 	@Value("${trader.description}")
 	private String traderDescription;
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(PriceBtcTradeCexApplication.class);
+	 Logger LOGGER = LoggerFactory.getLogger(PriceBtcTradeCexApplication.class);
 
 
 	public static void main(String[] args) {
@@ -52,8 +51,8 @@ public class PriceBtcTradeCexApplication implements CommandLineRunner {
 			}
 
 		}
+		LOGGER.info("--->> Application stat with last price - "+priceService.findLastPrice().toString());
 
-		System.out.println(priceService.findLastPrice().toString());
 
 	}
 

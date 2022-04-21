@@ -20,7 +20,7 @@ import static java.time.temporal.TemporalAdjusters.*;
 @SpringBootApplication
 public class PriceBtcStatisticsApplication implements CommandLineRunner {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(PriceBtcStatisticsApplication.class);
+	Logger LOGGER = LoggerFactory.getLogger(PriceBtcStatisticsApplication.class);
 
 	@Autowired
 	PriceRepository priceRepository;

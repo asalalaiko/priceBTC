@@ -1,0 +1,153 @@
+[INFO ] 2022-04-21 23:42:32.357 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:42:32.432 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 11032 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-21 23:42:32.439 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-21 23:42:32.439 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-21 23:42:33.518 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-21 23:42:33.609 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-21 23:42:34.274 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-21 23:42:34.496 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1985 ms
+[INFO ] 2022-04-21 23:42:34.660 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:42:34.716 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-21 23:42:34.776 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-21 23:42:34.804 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:42:35.679 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:42:35.714 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-21 23:42:35.943 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-21 23:42:36.218 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-21 23:42:36.221 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-21 23:42:36.568 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-21 23:42:36.619 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:42:43.552 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:42:43.610 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:42:44.398 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-21 23:42:44.415 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 12.531 seconds (JVM running for 15.014)
+[INFO ] 2022-04-21 23:43:24.891 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:43:24.973 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 14544 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-21 23:43:24.978 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-21 23:43:24.978 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-21 23:43:25.972 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-21 23:43:26.087 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-21 23:43:27.026 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-21 23:43:27.262 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2204 ms
+[INFO ] 2022-04-21 23:43:27.453 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:43:27.692 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-21 23:43:27.760 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-21 23:43:27.800 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:43:28.069 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-21 23:43:28.071 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:43:29.034 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-21 23:43:29.157 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-21 23:43:29.178 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-21 23:43:30.333 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-21 23:43:31.288 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:43:34.472 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:43:34.486 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:43:34.960 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-21 23:43:34.978 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 10.503 seconds (JVM running for 15.385)
+[INFO ] 2022-04-21 23:45:42.678 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:45:42.761 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:45:42.767 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-04-21 23:45:42.858 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-04-21 23:48:01.525 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:48:04.015 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-21 23:48:04.115 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:48:04.385 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:48:05.050 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:48:06.169 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:49:41.659 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:49:41.753 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 5924 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-21 23:49:41.754 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-21 23:49:41.755 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-21 23:49:42.643 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-21 23:49:42.743 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-21 23:49:44.154 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-21 23:49:44.167 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-21 23:49:44.168 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-04-21 23:49:44.169 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2022-04-21 23:49:44.372 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-04-21 23:49:44.372 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2548 ms
+[INFO ] 2022-04-21 23:49:44.538 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:49:44.591 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-21 23:49:44.658 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-21 23:49:44.680 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:49:44.919 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:49:44.938 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-21 23:49:45.075 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-21 23:49:45.143 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-21 23:49:45.171 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-21 23:49:45.173 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-21 23:49:45.349 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-21 23:49:45.383 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:49:47.292 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:49:47.303 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:49:47.765 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-21 23:49:47.776 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 6.585 seconds (JVM running for 8.883)
+[INFO ] 2022-04-21 23:51:10.012 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:51:10.115 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 9624 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-21 23:51:10.120 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-21 23:51:10.121 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-21 23:51:10.932 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-21 23:51:11.026 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-21 23:51:11.756 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-21 23:51:11.953 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1759 ms
+[INFO ] 2022-04-21 23:51:12.122 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:51:12.179 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-21 23:51:12.243 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-21 23:51:12.271 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:51:12.510 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-21 23:51:12.512 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:51:12.681 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-21 23:51:12.753 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-21 23:51:12.755 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-21 23:51:12.932 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-21 23:51:12.989 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:51:13.982 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:51:13.993 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:51:14.338 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-21 23:51:14.347 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 4.783 seconds (JVM running for 6.736)
+[INFO ] 2022-04-21 23:52:23.563 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:52:25.303 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-21 23:52:25.392 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:52:25.639 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:52:26.229 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:52:27.378 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:56:38.960 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:56:39.114 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 3804 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-21 23:56:39.116 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-21 23:56:39.117 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-21 23:56:40.582 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-21 23:56:40.694 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-21 23:56:41.355 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-21 23:56:41.367 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-21 23:56:41.368 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-04-21 23:56:41.369 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2022-04-21 23:56:41.549 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-04-21 23:56:41.550 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2345 ms
+[INFO ] 2022-04-21 23:56:41.735 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-21 23:56:41.788 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-21 23:56:41.916 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-21 23:56:41.932 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:56:42.264 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:56:42.296 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-21 23:56:42.445 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-21 23:56:42.523 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-21 23:56:42.553 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-21 23:56:42.555 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-21 23:56:46.050 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-21 23:56:46.083 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:56:47.047 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-21 23:56:47.058 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-21 23:56:47.416 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-21 23:56:47.426 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 9.008 seconds (JVM running for 11.211)
+[INFO ] 2022-04-21 23:59:34.005 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-21 23:59:34.877 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-21 23:59:34.970 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-21 23:59:35.215 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-21 23:59:35.758 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-21 23:59:36.757 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 00:07:47.903 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 00:07:53.878 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-22 00:07:53.990 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-22 00:07:54.278 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 00:07:54.966 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 00:07:56.012 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
