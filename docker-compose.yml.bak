@@ -1,0 +1,26 @@
+version: '1'
+services:
+  db:
+    image: postgres:14.2-alpine
+    container_name: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: priceBTC
+      PGDATA: /var/lib/postgresql/data/pgdata
+    restart: always
+  web_statictics:
+    image: 0125523/duba:price-btc-statictics
+    ports:
+      - 8080:8080
+#    restart: always
+    links:
+      - db
+  trade_cex:
+    image: 0125523/duba:price-btc-trade-cex
+    ports:
+      - 8081:8081
+#    restart: always
+    links:
+      - db
