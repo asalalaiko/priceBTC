@@ -151,3 +151,150 @@
 [INFO ] 2022-04-22 00:07:54.278 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
 [INFO ] 2022-04-22 00:07:54.966 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
 [INFO ] 2022-04-22 00:07:56.012 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:07:37.866 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 15:07:38.022 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 7412 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-22 15:07:38.030 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-22 15:07:38.031 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-22 15:07:41.769 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-22 15:07:42.231 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 385ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-22 15:07:42.918 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-22 15:07:42.930 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:07:42.931 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-04-22 15:07:42.931 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2022-04-22 15:07:43.100 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-04-22 15:07:43.100 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4942 ms
+[INFO ] 2022-04-22 15:07:43.272 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:07:43.321 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-22 15:07:43.386 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-22 15:07:43.400 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-22 15:07:43.791 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-22 15:07:43.809 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 15:07:43.983 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-22 15:07:44.007 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:07:44.078 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-22 15:07:44.081 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositoriesâ€¦
+[INFO ] 2022-04-22 15:07:44.446 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-22 15:07:44.488 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 15:07:46.461 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:07:46.497 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:07:49.016 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-22 15:07:49.033 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 11.802 seconds (JVM running for 18.046)
+[INFO ] 2022-04-22 15:12:16.742 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 15:12:16.842 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 5048 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-22 15:12:16.848 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-22 15:12:16.849 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-22 15:12:18.612 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-22 15:12:18.737 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-22 15:12:20.158 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-22 15:12:20.170 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:12:20.171 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-04-22 15:12:20.171 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2022-04-22 15:12:20.332 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-04-22 15:12:20.332 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3384 ms
+[INFO ] 2022-04-22 15:12:20.484 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:12:20.532 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-22 15:12:20.596 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-22 15:12:20.621 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-22 15:12:20.844 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-22 15:12:20.855 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 15:12:21.016 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-22 15:12:21.042 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:12:21.349 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-22 15:12:21.351 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositoriesâ€¦
+[INFO ] 2022-04-22 15:12:22.490 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-22 15:12:22.522 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 15:12:33.890 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:12:33.960 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:12:34.865 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-22 15:12:34.884 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 20.44 seconds (JVM running for 24.256)
+[INFO ] 2022-04-22 15:20:17.480 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 15:20:17.594 [main] PriceBtcStatisticsApplication - Starting PriceBtcStatisticsApplication on DESKTOP-GFKG94P with PID 4404 (C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics\target\classes started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-22 15:20:17.603 [main] PriceBtcStatisticsApplication - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-22 15:20:17.605 [main] PriceBtcStatisticsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-22 15:20:19.996 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-22 15:20:20.103 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-22 15:20:20.863 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-04-22 15:20:20.876 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:20:20.877 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-04-22 15:20:20.877 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2022-04-22 15:20:21.062 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-04-22 15:20:21.062 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3384 ms
+[INFO ] 2022-04-22 15:20:21.225 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:20:21.275 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2022-04-22 15:20:21.335 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-22 15:20:21.356 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[INFO ] 2022-04-22 15:20:21.591 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-22 15:20:21.625 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 15:20:21.822 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-22 15:20:21.839 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-04-22 15:20:21.882 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-04-22 15:20:21.884 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositoriesâ€¦
+[INFO ] 2022-04-22 15:20:22.248 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-22 15:20:22.278 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 15:20:23.352 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:20:23.363 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:20:23.713 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-22 15:20:23.726 [main] PriceBtcStatisticsApplication - Started PriceBtcStatisticsApplication in 6.785 seconds (JVM running for 18.191)
+[INFO ] 2022-04-22 15:21:24.685 [http-nio-8080-exec-3] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-04-22 15:21:24.686 [http-nio-8080-exec-3] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-04-22 15:21:24.697 [http-nio-8080-exec-3] DispatcherServlet - Completed initialization in 11 ms
+[INFO ] 2022-04-22 15:23:51.372 [main] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests], using SpringBootContextLoader
+[INFO ] 2022-04-22 15:23:51.393 [main] AbstractContextLoader - Could not detect default resource locations for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-04-22 15:23:51.394 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests]: PriceBtcStatisticsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-04-22 15:23:51.566 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplication for test class by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests
+[INFO ] 2022-04-22 15:23:51.736 [main] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2022-04-22 15:23:51.842 [main] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4cfbaf4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58faa93b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f212d84, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@127d7908, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b9c69a9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6622a690, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30b9eadd, org.springframework.test.context.event.EventPublishingTestExecutionListener@497570fb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@412c995d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3249a1ce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4dd94a58, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2f4919b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a8a8b75, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@75b21c3b]
+[INFO ] 2022-04-22 15:23:52.234 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 15:23:52.314 [main] PriceBtcStatisticsApplicationTests - Starting PriceBtcStatisticsApplicationTests on DESKTOP-GFKG94P with PID 14504 (started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-22 15:23:52.319 [main] PriceBtcStatisticsApplicationTests - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-22 15:23:52.321 [main] PriceBtcStatisticsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-22 15:23:53.609 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-22 15:23:53.730 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-22 15:23:54.569 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:23:54.718 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-22 15:23:54.957 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[WARN ] 2022-04-22 15:23:55.211 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-22 15:23:55.425 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 15:23:56.013 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-22 15:23:56.271 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-22 15:23:56.712 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-22 15:23:56.932 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-22 15:23:57.008 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 15:23:58.648 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:23:58.661 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:23:59.114 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-22 15:23:59.125 [main] PriceBtcStatisticsApplicationTests - Started PriceBtcStatisticsApplicationTests in 7.177 seconds (JVM running for 10.471)
+[INFO ] 2022-04-22 15:24:04.808 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:24:04.810 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:24:04.811 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-04-22 15:24:04.824 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-04-22 15:40:53.961 [main] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests], using SpringBootContextLoader
+[INFO ] 2022-04-22 15:40:53.984 [main] AbstractContextLoader - Could not detect default resource locations for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-04-22 15:40:53.987 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests]: PriceBtcStatisticsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-04-22 15:40:54.172 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplication for test class by.asalalaiko.priceBtcStatistics.PriceBtcStatisticsApplicationTests
+[INFO ] 2022-04-22 15:40:54.331 [main] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2022-04-22 15:40:54.364 [main] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4cfbaf4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58faa93b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f212d84, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@127d7908, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b9c69a9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6622a690, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30b9eadd, org.springframework.test.context.event.EventPublishingTestExecutionListener@497570fb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@412c995d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3249a1ce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4dd94a58, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2f4919b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a8a8b75, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@75b21c3b]
+[INFO ] 2022-04-22 15:40:54.752 [background-preinit] Version - HV000001: Hibernate Validator 6.1.0.Final
+[INFO ] 2022-04-22 15:40:54.832 [main] PriceBtcStatisticsApplicationTests - Starting PriceBtcStatisticsApplicationTests on DESKTOP-GFKG94P with PID 14012 (started by Alex in C:\Users\Alex\Desktop\Java\priceBTC\priceBtcStatistics)
+[DEBUG] 2022-04-22 15:40:54.838 [main] PriceBtcStatisticsApplicationTests - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[INFO ] 2022-04-22 15:40:54.839 [main] PriceBtcStatisticsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2022-04-22 15:40:56.124 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2022-04-22 15:40:56.244 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-04-22 15:40:57.088 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:40:57.255 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-04-22 15:40:57.639 [task-1] Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+[WARN ] 2022-04-22 15:40:57.963 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-04-22 15:40:58.056 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-04-22 15:40:58.631 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-04-22 15:40:58.941 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-04-22 15:40:59.444 [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2022-04-22 15:40:59.906 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-04-22 15:40:59.973 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[INFO ] 2022-04-22 15:41:01.770 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-04-22 15:41:01.787 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:41:02.217 [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2022-04-22 15:41:02.229 [main] PriceBtcStatisticsApplicationTests - Started PriceBtcStatisticsApplicationTests in 7.792 seconds (JVM running for 11.585)
+[INFO ] 2022-04-22 15:41:03.037 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-04-22 15:41:03.041 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2022-04-22 15:41:03.048 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-04-22 15:41:03.068 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
